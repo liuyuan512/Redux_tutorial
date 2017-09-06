@@ -1,3 +1,3 @@
-# My Awesome Book
+# 关于本教程
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+这是一个针对于没有接触过Redux的同学的入门级教程。
