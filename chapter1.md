@@ -1,11 +1,3 @@
 # 为什么要使用Redux
 
-为什么会有冲突呢？
-
-
-
-我编辑云端的文档，那么本地的会同步吗？
-
-我编辑本地的，那么我电脑里的liuyuan512会同步吗?
-
-云端没有同步？？
+{ %video% }https://s3.cn-north-1.amazonaws.com.cn/u-vid-hd/EVwUn7MOvAY.mp4{ %endvideo% }
