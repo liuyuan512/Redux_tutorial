@@ -1,4 +1,4 @@
 # 为什么要使用Redux
 
-{% video controls="controls" %}https://s3.cn-north-1.amazonaws.com.cn/u-vid-hd/MTXIx7859P0.mp4{% endvideo %}
-
+Redux是一个非常强大的工具，用于管理应用内的状态。在本次教程中，你不仅将学习如何使用x相关API使你的应用程序状态更加课预测，还会了解到函数式编程主题。
+教程里首先会看一下在React应用中如何使用Redux以及使用Redux会带来的好处，然后会深入讲解如何在React中使用Redux。
