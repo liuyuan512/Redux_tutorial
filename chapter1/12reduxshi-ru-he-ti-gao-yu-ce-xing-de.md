@@ -13,3 +13,11 @@ React的这个单向数据流工作的挺好，但是当有很多嵌套的子组
 如果是这种嵌套多层的组件，data就必须被传递到给经过的每一个组件！
 {% video %}https://s3.cn-north-1.amazonaws.com.cn/u-vid-hd/aTosJz-N0l4.mp4{% endvideo %}
 
+![](/assets/Screen Shot 2017-09-07 at 11.25.21.png)
+
+##小结
+Redux在一些方面提升了web应用的预测性:
+- Data被放在一个地方几种管理
+- 组件必须请求访问该数据
+- store里面的额data是单一方向流
+- store 更新的规则很严格
