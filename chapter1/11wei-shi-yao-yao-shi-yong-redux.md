@@ -1,6 +1,6 @@
 #为什么要使用Redux?
 
-{% video %}https://s3.cn-north-1.amazonaws.com.cn/u-vid-hd/CFI1O4NI4NU.mp4{% endvideo %}
+{% video %}http://ovwbdgz95.bkt.clouddn.com/react-redux-1WhyRedux-2-1.mp4{% endvideo %}
 
 #Redux聚焦于State管理
 官方的Redux文档是这样描述Redux的
