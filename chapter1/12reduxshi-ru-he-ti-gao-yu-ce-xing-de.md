@@ -11,7 +11,7 @@ React的这个单向数据流工作的挺好，但是当有很多嵌套的子组
 ![](/assets/react嵌套)
 
 如果是这种嵌套多层的组件，data就必须被传递到给经过的每一个组件！
-{% video %}https://s3.cn-north-1.amazonaws.com.cn/u-vid-hd/aTosJz-N0l4.mp4{% endvideo %}
+{% video %}http://ovwbdgz95.bkt.clouddn.com/react-redux-1WhyRedux-3-1.mp4{% endvideo %}
 
 ![](/assets/Screen Shot 2017-09-07 at 11.25.21.png)
 
