@@ -8,7 +8,6 @@
 
 下面看一下`.reduce()`函数的强大之处，下面有个`iceCreamStats`数组，显示了每一个队员吃了多少冰淇淋。
 ```
-*terminal*
 
 const iceCreamStats = [
   {
