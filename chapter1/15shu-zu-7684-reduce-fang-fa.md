@@ -39,3 +39,9 @@ iceCreamStats.reduce( (accumulator, currentValue) => {
 }, 0);
 ```
 ![](/assets/31cc5290-a186-4408-bbfe-bf929f981d13)
+
+
+##小结
+`.reduce()`是一个强大的方法，它可以使你将一个庞大的数据reduce成一个单一的值。Redux同样是利用了这个原则，使用`reducers`来更新它的数据store。下面的教程里会仔细讲解！
+
+- [Array.prototype.reduce on MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce?v=b)
