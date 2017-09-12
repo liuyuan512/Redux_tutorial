@@ -27,3 +27,5 @@ const calculateTip = (cost, tipPercentage = 0.15) => cost * tipPercentage;
 
 ```
 
+{% video %}http://ovwbdgz95.bkt.clouddn.com/react-redux-1WhyRedux-5-2.mp4{% endvideo %}
+
