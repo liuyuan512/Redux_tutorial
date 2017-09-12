@@ -32,3 +32,10 @@ const iceCreamStats = [
 
 {% video %}http://ovwbdgz95.bkt.clouddn.com/react-redux-1WhyRedux-6-2.mp4{% endvideo %}
 
+这里是我们刚刚使用的`.reduce()`代码:
+```
+iceCreamStats.reduce( (accumulator, currentValue) => {
+  return accumulator + currentValue.gallonsEaten;
+}, 0);
+```
+![](/assets/31cc5290-a186-4408-bbfe-bf929f981d13)
