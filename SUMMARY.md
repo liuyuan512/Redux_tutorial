@@ -11,6 +11,7 @@
 * [2.Redux核心](2reduxhe-xin.md)
   * [2.1创建Actions](2reduxhe-xin/11reduxji-chu-jian-jie.md)
   * [2.2创建reducers](2reduxhe-xin/22chuang-jian-reducers.md)
+  * [2.3创建Redux Store](2reduxhe-xin/23chuang-jian-redux-store.md)
 * [3.React & Redux](3react-and-redux.md)
 * [4.加强ReduxStore](4jia-qiang-reduxstore.md)
 * [5.Redux中间件](5reduxzhong-jian-jian.md)
