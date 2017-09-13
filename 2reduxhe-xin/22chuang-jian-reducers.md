@@ -60,11 +60,79 @@ function reducer(state = {}, action) {
 
 ![](/assets/Screen Shot 2017-09-13 at 11.19.47.png)
 
+##练习3/3
+创建一个自己的reducer。要求:
+1. 创建一个被称为"appReducer"的reducer，它接收两个参数:
+    - 第一个参数，是一个包含ice cream信息的数组
+    - 第二个参数，是一个用`type`属性值为`‘DELETE_FLAVOR’`的对象
+2. reducer接收的action对象应该像这样: {type: ‘DELETE_FLAVOR’, flavor: 'Vanilla'}
+3. 初始的state应该像这样`[{ flavor: 'Chocolate', count: 36 }, { flavor: 'Vanilla', count: 210 }]`
+
 {% video %}http://ovwbdgz95.bkt.clouddn.com/react-redux-2ReduxAtItsCore-3-2.mp4{% endvideo %}
 
 {% video %}http://ovwbdgz95.bkt.clouddn.com/react-redux-2ReduxAtItsCore-3-3.mp4{% endvideo %}
 
 ##Reducers 和 State
+Redux里的reducer具体描述了应用的state的信息，并且依据接收的具体的actions来决定如何改变state。
+
+你可以使用ES6的默认特性来初始化reducer的state。
+```
+function myReducer (state = initialState, action) {
+  // ...
+}
+```
+从这个reducer返回的state将成为应用内的新的state，所以你需要确保总是返回新的state或者是之前的state。
+
+```
+function myReducer (state = initialState, action) {
+  if ( /* ... */ ) {
+    return {
+      ...state,
+      name: 'Tyler'
+    };
+  }
+
+  return state;
+}
+
+```
+通过dispatch的action的type，来决定如何更改state。
+
+```
+function myReducer (state = initialState, action) {
+  if (action.type === CHANGE_NAME) {
+    return {
+      ...state,
+      name: 'Tyler'
+    };
+  }
+
+  return state;
+}
+```
+
+{% video %}http://ovwbdgz95.bkt.clouddn.com/react-redux-2ReduxAtItsCore-3-4.mp4{% endvideo %}
+[这里是视频里修改的代码](https://github.com/udacity/reactnd-udacimeals-complete/commit/9303a724d8fe4388b7c9c2bdbeec8dd9339ad9c1)
+
+确保以下步骤你都做了
+
+![](/assets/Screen Shot 2017-09-13 at 11.47.20.png)
+
+>!Data Normalization!
+>当在不同的地方都需要数据的时候如何格式化你的数据呢？首先，你要确保你的数据是标准化的(normalized).后面的教程里会详细讲解
+
+##UI State
+能够构建完善的React/Redux应用程序的一个基本部分是了解何时将state存储在Redux中，何时将state存储在React组件中。现在，对于这个没有一套硬套规则，即使是React社区也不能达成协议，所以下面所说的一切都是我的意见。
+
+在决定一个国家应该生活在哪里的第一个问题是，“两个组件是否依赖于同一个状态？”如果答案是肯定的，那么几乎总是想让Redux管理这个状态。原因是如果国家生活在Redux，无论两个组成部分之间的关​​系如何，每个组织都可以获得所需的状态。
+
+我问自己的下一个问题是，“这个状态的缓存故事是什么样的？”如果获取数据的操作是昂贵的，那么可能值得把它放在Redux中，每次组件挂载时都会抓取它。对于任何其他情况，您可能会遵循惯用的本地组件状态。
+
+
+
+
+
+
 
 
 
