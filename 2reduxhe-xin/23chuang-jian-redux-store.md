@@ -40,3 +40,11 @@ store.getState(); // ['Redux is great!']
 
 ![](/assets/Screen Shot 2017-09-13 at 14.09.41.png)
 
+##Redux DevTools
+**Redux Devtools**为你的Redux开发提供了一个强大的工作流。它可以使你看到store的当前state，和基于dispatch的action引发的state变化情况。
+
+访问[Redux DevTools extension page](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en)把这个工具添加到你的浏览器里
+
+
+{% video %}http://ovwbdgz95.bkt.clouddn.com/react-redux-2ReduxAtItsCore-4-3.mp4{% endvideo %}
+
