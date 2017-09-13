@@ -47,4 +47,13 @@ store.getState(); // ['Redux is great!']
 
 
 {% video %}http://ovwbdgz95.bkt.clouddn.com/react-redux-2ReduxAtItsCore-4-3.mp4{% endvideo %}
+[这里是视频里修改的代码](https://github.com/udacity/reactnd-udacimeals-complete/commit/6b56069be8e155955947e6de7e0c1ba826ad4628)
+
+![](/assets/Screen Shot 2017-09-13 at 14.21.19.png)
+
+##小结
+Redux附带一个称为`createStore()`的方法。它接收一个reducer函数作为第一个参数，返回一个store，这个store拥有下面三个属性:
+- `getState()`
+- `dispatch()`
+- `subscribe()`
 
