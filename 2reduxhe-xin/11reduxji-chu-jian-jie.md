@@ -62,6 +62,21 @@ const submitUser = user => ({
 ![](/assets/Screen Shot 2017-09-12 at 18.23.49.png)
 
 ##小结
-在这一小节，我们
+在这一小节，我们学习了**actions**和**action creators**。
+Redux中的操作是你设置的JavaScript对象，用于描述应用程序中应更新应用程序状态的任何事件
+```
+const LOAD_PROFILE = 'LOAD_PROFILE';
 
+const loadProfileAction = {
+  type: LOAD_PROFILE
+};
+```
+单纯的对象不是很方便，为了使actions更加方便和易于测试，他们通常都被包裹在称为"action creators"。这些actions并不会直接改变state，它只是指出一些event发生以后，应该更新的state。要使得actions尽可能集中很重要，并且没有副作用。
+```
+const loadProfile = user => ({
+  type: LOAD_PROFILE,
+  user
+});
+```
+那么下一步应该怎么办呢？目前为止我们讨论的只是关于创建对象(actions)和将这些对象包裹进函数里(action creators)。还有两个问题需要解决。第一，Redux是怎么知道如果触发了这些action creators以后就应该修改应用的state呢？第二，基于这些actions，我们如何具体描述出来应用的state应该如何修改？ 这两个问题在下一小节的**reducers**得到解答。
 
