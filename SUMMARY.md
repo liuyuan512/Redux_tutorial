@@ -16,7 +16,7 @@
   * [2.5小结](2reduxhe-xin/25xiao-jie.md)
 * [3.React & Redux](3react-and-redux.md)
   * [3.1Provider](3react-and-redux/31provider.md)
-  * 3.2Currying
+  * [3.2Currying](3react-and-redux/32currying.md)
   * 3.3Connect
 * [4.加强ReduxStore](4jia-qiang-reduxstore.md)
 * [5.Redux中间件](5reduxzhong-jian-jian.md)
