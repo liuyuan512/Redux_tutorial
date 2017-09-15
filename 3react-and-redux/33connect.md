@@ -71,3 +71,8 @@ export default connect(mapStateToProps)(MyPhotos);
 
 ```
 通过这种方式，我们可以快速将一个prop传递给组件(比如user)并且返回所有的store的state里面的`user`登录的照片。
+
+{% video %}http://ovwbdgz95.bkt.clouddn.com/react-redux-3React&Redux-4-2.mp4{% endvideo %}
+
+
+
