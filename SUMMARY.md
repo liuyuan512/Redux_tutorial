@@ -18,7 +18,7 @@
   * [3.1Provider](3react-and-redux/31provider.md)
   * [3.2Currying](3react-and-redux/32currying.md)
   * [3.3Connect](3react-and-redux/33connect.md)
-  * 3.4小结
+  * [3.4小结](3react-and-redux/34xiao-jie.md)
 * [4.加强ReduxStore](4jia-qiang-reduxstore.md)
 * [5.Redux中间件](5reduxzhong-jian-jian.md)
 
