@@ -1,4 +1,4 @@
-{% video %}http://ovwbdgz95.bkt.clouddn.com/react-redux-4ArchitectReduxStore-2-1.mp4{% endvideo %}
+![](/assets/Screen Shot 2017-09-18 at 18.10.37.png){% video %}http://ovwbdgz95.bkt.clouddn.com/react-redux-4ArchitectReduxStore-2-1.mp4{% endvideo %}
 
 ##Reducer Composition
 到目前为止，我们只有一个reducer。只有一个reducer可以工作，但是随着应用变得越来越大，它会很难管理。 假设我们有一个"users"的reducer:
@@ -91,4 +91,7 @@ console.log(store.getState()) // { users: {}, books: {} }
 
 ##练习
 ![](/assets/Screen Shot 2017-09-18 at 18.09.52.png)
+
+![](/assets/Screen Shot 2017-09-18 at 18.10.37.png)
+
 
