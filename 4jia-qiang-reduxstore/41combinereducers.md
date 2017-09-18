@@ -94,4 +94,9 @@ console.log(store.getState()) // { users: {}, books: {} }
 
 ![](/assets/Screen Shot 2017-09-18 at 18.10.37.png)
 
+![](/assets/Screen Shot 2017-09-18 at 18.10.59.png)
+
+##小结
+当一个应用程序慢慢变得复杂，就需要不同的recuder来管理不同的redux的store树上的不同state。但是问题是Redux的`createStore()`方法只接收一个reducer作为参数。为了可以使所有的reducers组合成一个reducer，就得使用Redux的`combineReducers()`方法。这就使得你可以使用**reducer composition**来管理你store里的state。
+
 
