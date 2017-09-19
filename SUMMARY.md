@@ -22,5 +22,6 @@
 * [4.加强ReduxStore](4jia-qiang-reduxstore.md)
   * [4.1CombineReducers](4jia-qiang-reduxstore/41combinereducers.md)
   * [4.2Normalization归一化](4jia-qiang-reduxstore/42normalizationgui-yi-hua.md)
+  * [4.3完成App](4jia-qiang-reduxstore/43wan-cheng-app.md)
 * [5.Redux中间件](5reduxzhong-jian-jian.md)
 
