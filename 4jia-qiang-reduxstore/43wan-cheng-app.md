@@ -37,4 +37,4 @@
 ![](/assets/Screen Shot 2017-09-19 at 16.09.25.png)
 
 ##完成应用
-这部分我们完成了
+这部分我们完成了 UdaciMeals剩余项目的部分。到现在，你就可以看到，Redux可以高效和可预测的管理React应用的state了。
