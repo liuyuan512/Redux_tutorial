@@ -1,5 +1,3 @@
-{% video %}https://s3.cn-north-1.amazonaws.com.cn/u-vid-hd/fRCI1Z51dII.mp4{% endvideo %}
-
 ##什么是纯函数
 纯函数是Redux应用程序中的状态更新的组成部分。纯函数的定义:
 1. 只要传递相同的参数，一定返回相同的结果

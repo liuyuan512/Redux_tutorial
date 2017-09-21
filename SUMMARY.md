@@ -27,6 +27,6 @@
 * [5.Redux中间件](5reduxzhong-jian-jian.md)
   * [5.1中间件定义](5reduxzhong-jian-jian/51zhong-jian-jian-ding-yi.md)
   * [5.2实现一个中间件](5reduxzhong-jian-jian/52shi-xian-yi-ge-zhong-jian-jian.md)
-  * 5.3Thunks
-  * 5.4应用结构&组织
+  * [5.3Thunks](5reduxzhong-jian-jian/53thunks.md)
+  * [5.4应用结构&组织](5reduxzhong-jian-jian/54ying-yong-jie-678426-zu-zhi.md)
 
