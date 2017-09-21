@@ -16,4 +16,6 @@ Redux是一个web端可预测的state容器。当一个action被diapatch，会�
 下面看一下具体怎么实现
 
 {% video %}http://ovwbdgz95.bkt.clouddn.com/react-redux-5ReduxMiddleware-3-2.mp4{% endvideo %}
+[这里是视频里修改的代码](https://github.com/udacity/reactnd-udacimeals-complete/commit/2b60fe731b2e4f8ebcfaaafc0ac36ecd11e5215d)
 
+>##!The`redux-logger`npm Package!
