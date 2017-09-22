@@ -70,4 +70,32 @@ export const fetchTodos = () => dispatch => (
 ##Thunk的底层实现
 如果上面的action creator(`fetchTodos()`)不是用thunk中间件写的，那么我们就从reducer得不到理想的回应。毕竟Reducer只接作为纯js对象的actions,而不是作为函数的actions
 
-看一下下面中间件的thunk内部实现的一部分[sorce code]()
+看一下下面中间件的thunk内部实现的一部分[sorce code](https://github.com/gaearon/redux-thunk/blob/master/src/index.js)
+
+```js
+function createThunkMiddleware(extraArgument) {
+  return ({ dispatch, getState }) => next => action => {
+    if (typeof action === 'function') {
+      return action(dispatch, getState, extraArgument);
+    }
+
+    return next(action);
+  };
+}
+
+const thunk = createThunkMiddleware();
+thunk.withExtraArgument = createThunkMiddleware;
+
+export default thunk;
+```
+
+在thunk内部，thunk中间件在action被dispatch之前截取了类型为函数的action。除了`dispatch`,`getState`作为第二个参数同样也被传到了函数内部，这就使得thunk action的action creators可以读取当前store里的state。
+
+
+##小结
+如果你的web应用需要与服务器交互，使用thunk这样的中间件可以帮你解决异步数据流的问题。Thunk 写出能够返回函数类型的action creators.Thunk可以用来延迟一个action的触发，或者当某些特定条件满足后(比如异步请求成功后)再触发action
+
+##延伸阅读
+- [Redux Thunk on GitHub](https://github.com/gaearon/redux-thunk)
+- [Async Flow from the Redux docs](http://redux.js.org/docs/advanced/AsyncFlow.html)
+- [Dan Abramov's Stack Overflow on Asynchronicity in Redux](https://stackoverflow.com/questions/35411423/how-to-dispatch-a-redux-action-with-a-timeout/35415559#35415559)
