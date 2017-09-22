@@ -68,3 +68,6 @@ export const fetchTodos = () => dispatch => (
 
 
 ##Thunk的底层实现
+如果上面的action creator(`fetchTodos()`)不是用thunk中间件写的，那么我们就从reducer得不到理想的回应。毕竟Reducer只接作为纯js对象的actions,而不是作为函数的actions
+
+看一下下面中间件的thunk内部实现的一部分[sorce code]()
